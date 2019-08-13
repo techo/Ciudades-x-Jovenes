@@ -50,7 +50,7 @@
                     <div class="counter">
 					  <span class="fa fa-globe"></span>
                         <h3 class="timer count-title count-number">18</h3>
-                        <p class="count-text">Ciudades</p>
+                        <p class="count-text">Paises</p>
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@ la implementación de la NAU. </p>
 para abrir nuevas formas de interpretación y desarrollo de propuestas, que propicien la participación efectiva de las juventudes en las políticas urbanas de América
 Latina durante los próximos años.</p>
 
-                        <a href="https://www.techo.org/wp-content/uploads/2019/07/PARJ_5-arreglado_compressed.pdf" target="_blank" class="btn">Leer</a>
+                        <a href="https://www.techo.org/wp-content/uploads/2019/07/PARJ_5-arreglado_compressed.pdf" target="_blank" class="btn">Leer PARJ</a>
                 </div>
                 <div class="col-lg-6 banner-image">
                     <div class="img-effect">
