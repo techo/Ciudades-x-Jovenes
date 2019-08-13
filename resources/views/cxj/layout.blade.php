@@ -51,13 +51,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </h1>
                     </div>
 
-                    <label for="drop" class="toggle">...</label>
-                    <input type="checkbox" id="drop" />
-                    <ul class="menu mt-2">
-                        <li class="active"><a href="/cxj/">Home</a></li>
-                        </li>
-                      
-                    </ul>
+                    
 
 
                 </nav>

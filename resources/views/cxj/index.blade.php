@@ -12,10 +12,10 @@
             <div class="container">
                 <div class="row banner-grids">
                     <div class="col-lg-6 banner-info-w3ls">
-                        <h2>{{ __('Make your city') }} </h2>
-                        <h3 class="mb-3">{{ __('Ciudades x Jovenes') }}</h3>
-                        <p class="mb-4"> {{ __('cxj.what') }}</p>
-                        <a href="#participa" class="btn">{{ __('cxj.roll') }}</a>
+                        <h2> Construí tu Ciudad</h2>
+                        <h1 class="mb-3" style="COLOR: WHITE;">Ciudades x Jovenes</h3>
+                        <p class="mb-4"> Un Movimiento para que jóvenes de toda America Latina propongamos las ciudades que queremos y demostremos nuestro compromiso para lograrlo</p>
+                        <a href="#participa" class="btn">Conocé más!</a>
                     </div>
                    
                 </div>
@@ -30,34 +30,27 @@
     <!--//counter-->
     <section class="stats py-lg-5">
         <div id="campus" class="container py-5">
-            <h3 class="tittle text-center mb-lg-5 mb-3 px-lg-5">Que pasara en el Campus Urbano?</h3>
+            <h3 class="tittle text-center mb-lg-5 mb-4 px-lg-5">Impacto #CiudadesxJovenes</h3>
             <div class="row text-center">
-                <div class="col-md-3 col-sm-6">
-                    <div class="counter">
-					  <span class="fa fa-calendar"></span>
-                        <h3 class="timer count-title count-number">12</h3>
-                        <p class="count-text">Dias</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="counter">
-					  <span class="fa fa-microphone"></span>
-                        <h3 class="timer count-title count-number">120</h3>
-                        <p class="count-text">Conferencias</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="counter">
-					 <span class="fa fa-flask"></span>
-                        <h3 class="timer count-title count-number">1280</h3>
-                        <p class="count-text">Laboratorios</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="counter">
 					  <span class="fa fa-users"></span>
                         <h3 class="timer count-title count-number">10200</h3>
                         <p class="count-text">Jovenes</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="counter">
+					 <span class="fa fa-flask"></span>
+                        <h3 class="timer count-title count-number">867</h3>
+                        <p class="count-text">Iniciativas Generadas</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="counter">
+					  <span class="fa fa-globe"></span>
+                        <h3 class="timer count-title count-number">18</h3>
+                        <p class="count-text">Ciudades</p>
                     </div>
                 </div>
             </div>
@@ -76,11 +69,18 @@
             <div class="row accord-info">
                 <div class="col-lg-6 pl-md-5">
 
-                    <h3 class="mb-md-5 tittle">Plan Your Holiday Trip Now Exceptional Adventure</h3>
+                    <h3 class="mb-md-5 tittle">Plan de Acción Regional</h3>
 
-                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis.Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
-                    <p class="mt-3">Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.
-                        <p>
+                    
+<p>
+A través del encuentro de
+cientos de jóvenes, nació el PARJ, para
+la implementación de la NAU. </p>
+<p>Este documento es un puntapié inicial
+para abrir nuevas formas de interpretación y desarrollo de propuestas, que propicien la participación efectiva de las juventudes en las políticas urbanas de América
+Latina durante los próximos años.</p>
+
+                        <a href="https://www.techo.org/wp-content/uploads/2019/07/PARJ_5-arreglado_compressed.pdf" target="_blank" class="btn">Leer</a>
                 </div>
                 <div class="col-lg-6 banner-image">
                     <div class="img-effect">
@@ -97,19 +97,20 @@
     <!-- testimonials -->
     <div class="testimonials py-md-5 py-5">
         <div class="container py-xl-5 py-lg-3">
-            <h3 class="tittle  text-center mb-lg-5 mb-3">Our Clients Say</h3>
+            <h3 class="tittle  text-center mb-lg-5 mb-3">La Juventud dice</h3>
 
             <div class="testimonials_grid_w3ls mt-lg-0 mt-4">
                 <div class="p-md-5 p-4">
-                    <p class="sub-test"><span class="fa fa-quote-left" aria-hidden="true"></span> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod possimus, omnis voluptas.Integer sit amet mattis quam, sit amet ultricies velit.
+                    <p class="sub-test"><span class="fa fa-quote-left" aria-hidden="true"></span> Las juventudes conciben los espacios
+                    públicos como lugares claves para el encuentro. Estos espacios son considerados relevantes por concentrar la oferta cultural destacada en cada ciudad. 
                     </p>
                     <div class="row mt-4">
                         <div class="col-3 testi-img-res">
                             <img src="{{ asset('img/cxj/te2.jpg') }}" alt="" class="img-fluid" />
                         </div>
                         <div class="col-9 testi_grid mt-xl-3 mt-lg-2 mt-md-4 mt-2">
-                            <h5 class="mb-2">Soluta Nobis</h5>
-                            <p>Libero Tempore</p>
+                            <h5 class="mb-2">Valeria</h5>
+                            <p>Participante Campus 2018</p>
                         </div>
                     </div>
                 </div>
@@ -119,7 +120,7 @@
     </div>
     <!-- //testimonials -->
     <!--footer -->
-    <footer>
+ <!--    <footer>
         <div class="footer_1its py-5">
             <div class="container py-md-4">
 
@@ -167,7 +168,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <!-- //footer -->
 
     @include('cxj.copyright')

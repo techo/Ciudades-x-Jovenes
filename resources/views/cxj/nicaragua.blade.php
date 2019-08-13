@@ -12,11 +12,13 @@
         <section class="banner">
             <div class="container">
                 <div class="row banner-grids">
-                    <div class="col-lg-6 banner-info-w3ls">
-                        <h2>{{ __('Make your city') }} </h2>
-                        <h3 class="mb-3">{{ __('Ciudades x Jovenes') }}</h3>
-                        <p class="mb-4"> {{ __('cxj.what') }}</p>
-                        <a href="#participa" class="btn">{{ __('cxj.roll') }}</a>
+                    <div class="col-lg-6 banner-info-w3ls" style="background: rgba(15, 20, 12, 0.5);">
+
+                        <h3 class="mb-3">Ciudades x Jovenes</h3>
+
+                        <h2 style="font-weight: 400;"> Haciendo nuestras Ciudades</h2>                        
+                        <p class="mb-4"> Un Movimiento para que jóvenes de toda America Latina propongamos las ciudades que queremos y demostremos nuestro compromiso para lograrlo   </p>
+                        <a href="#participa" class="btn"> Conocé Más!</a>
                     </div>
                    
                 </div>
@@ -52,7 +54,7 @@
                         <div class="bottom-gd px-3">
                             <span class="fa fa-rocket" aria-hidden="true"></span>
                             <h3 class="my-4">Anotate al Campus Urbano</h3>
-                            <p>Uun espacio de #CiudadesXJovenes que visibiliza las propuestas de participación ciudadana de las juventudes urbanas.</p>
+                            <p>Un espacio de #CiudadesXJovenes que visibiliza y contrapone las propuestas de participación ciudadana de las juventudes urbanas, para así entre todos hacer nuestras Ciudades.</p>
                         </div>
                     </div>
 
@@ -70,29 +72,29 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="counter">
 					  <span class="fa fa-calendar"></span>
-                        <h3 class="timer count-title count-number">12</h3>
+                        <h3 class="timer count-title count-number">7</h3>
                         <p class="count-text">Dias</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="counter">
 					  <span class="fa fa-microphone"></span>
-                        <h3 class="timer count-title count-number">120</h3>
+                        <h3 class="timer count-title count-number">27</h3>
                         <p class="count-text">Conferencias</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="counter">
 					 <span class="fa fa-flask"></span>
-                        <h3 class="timer count-title count-number">1280</h3>
-                        <p class="count-text">Laboratorios</p>
+                        <h3 class="timer count-title count-number">20</h3>
+                        <p class="count-text">Iniciativas Incubadas</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="counter">
 					  <span class="fa fa-users"></span>
-                        <h3 class="timer count-title count-number">10200</h3>
-                        <p class="count-text">Jovenes</p>
+                        <h3 class="timer count-title count-number">100</h3>
+                        <p class="count-text">Jovenes Nicaragüenses</p>
                     </div>
                 </div>
             </div>
