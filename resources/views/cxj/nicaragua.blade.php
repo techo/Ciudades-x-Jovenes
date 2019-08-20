@@ -38,7 +38,9 @@
                             <h3 class="my-4">Descaga la Guia</h3>
                             <p>Aqui veras y entenderas paso a paso como lograr tu propia mesa ciudadana.</p>
                             <br>
-                            <a href="#" class="button btn btn-light">Descargar</a>
+                            <a href="{{ asset('CiudadesxJovenes.pdf') }}" class="button btn btn-light" download="CiudadesxJovenes">
+                                Descargar
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-4" data-aos="fade-up">
