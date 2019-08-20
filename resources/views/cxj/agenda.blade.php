@@ -38,7 +38,7 @@
                         <div class="property-info-list">
                             <div class="detail">
                                 <h4 class="title">
-                                    <a href="/cxj/nicaragua" target="_blank">Campus Urbano Nicaragua</a>
+                                    <a href="/nicaragua" target="_blank">Campus Urbano Nicaragua</a>
                                 </h4>
                                 <ul class="facilities-list clearfix">
                                     <li>

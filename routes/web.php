@@ -22,7 +22,7 @@ Route::get('cxj/original', function () {
 });
 
 Route::get('cxj', 'CxjController@index');
-Route::get('cxj/nicaragua', 'CxjController@nicaragua');
+Route::get('nicaragua', 'CxjController@nicaragua');
 
 Route::get('cxj/mesas/create', 'MesasController@create');
 Route::get('cxj/mesas/', 'MesasController@index')->middleware('auth');
