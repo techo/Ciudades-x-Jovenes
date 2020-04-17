@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'CxjController@index');
+Route::get('/covid', 'CxjController@indexCovid');
 
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');

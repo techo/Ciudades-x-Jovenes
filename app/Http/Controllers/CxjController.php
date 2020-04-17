@@ -15,4 +15,9 @@ class CxjController extends Controller
     {
     	return view('cxj/index');
     }
+
+    public function indexCovid()
+    {
+    	return view('cxj/indexCovid');
+    }
 }
