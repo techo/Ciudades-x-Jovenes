@@ -9,11 +9,11 @@
      <section class="banner">
             <div class="container">
                 <div class="row banner-grids">
-                    <div class="col-lg-6 banner-info-w3ls">
-                        <h2> Construí tu Ciudad</h2>
-                        <h1 class="mb-3" style="COLOR: #868686;">Ciudades x Jovenes</h1>
-                        <p class="mb-4"> Un Movimiento para que jóvenes de toda America Latina propongamos las ciudades que queremos y demostremos nuestro compromiso para lograrlo</p>
-                        <a href="#participa" class="btn">Conocé más!</a>
+                    <div class="col-lg-6 banner-info-w3ls"  style="background: rgba(15, 20, 12, 0.6);padding-right: 15px;padding-top: 15px;padding-bottom: 15px;">
+                        <h2> </h2>
+                        <h1 class="mb-3" style="COLOR: #0092dd;">DIFERENTES CUARENTENAS</h1>
+                        <p class="mb-4"> Desde TECHO seguimos trabajando para apoyar a las familias más vulnerables ante el COVID-19</p>
+                        <a href="#problema" class="btn">Números</a>
                     </div>
                    
                 </div>
@@ -21,9 +21,9 @@
         </section>
     </div>
        <!--//counter-->
-    <section class="stats py-lg-5">
-        <div id="campus" class="container py-5">
-            <h3 class="tittle text-center mb-lg-5 mb-4 px-lg-5">Números en Asentamientos</h3>
+    <section class="stats py-lg-5 problema">
+        <div id="problema" class="container py-5">
+            <h3 class="tittle text-center mb-lg-5 mb-4 px-lg-5">LA SITUACION</h3>
             <div class="row text-center">
                 <div class="col-md-3 col-sm-6">
                     <div class="counter">
@@ -56,6 +56,41 @@
             </div>
         </div>
     </section>
+    <section class="stats py-lg-5" id="solucion">
+        <div id="solucion" class="container py-5">
+            <h3 class="tittle text-center mb-lg-5 mb-4 px-lg-5">EL APORTE DE TECHO</h3>
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter">
+                      <span class="fa fa-tint"></span>
+                        <h3 class="timer count-title count-number">750</h3>
+                        <p class="count-text">Litros Repartidos</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter">
+                     <span class="fa fa-cutlery"></span>
+                        <h3 class="timer count-title count-number">1200</h3>
+                        <p class="count-text">Kits Entregados</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter">
+                      <span class="fa fa-signing"></span>
+                        <h3 class="timer count-title count-number">130</h3>
+                        <p class="count-text">Kits Entregados</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter">
+                      <span class="fa fa-thermometer-3"></span>
+                        <h3 class="timer count-title count-number">1530</h3>
+                        <p class="count-text">Barbijos Entregados</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--//counter-->
         <!-- //header -->
         <!-- banner -->
@@ -74,18 +109,16 @@
             <div class="row accord-info">
                 <div class="col-lg-6 pl-md-5">
 
-                    <h3 class="mb-md-5 tittle">Como Ayudar</h3>
+                    <h2 class="mb-md-5 tittle">¿Y si no tienes 2 metros para distanciarse?</h2>
 
                     
-<p>A partir del trabajo comunitario hecho en los barrios, y desde el trabajo en conjunto con los vecinos se han desarrollado pedidos desde sus habitantes, desde TECHO apoyamos tales iniciativas, fomentamos y apoyamos economicamente a que los proyectos nacidos desde la emergencia tomen forma.
-<br>
-Se Parte vos tambien con tu aporte mensual o donacion de unica vez</p>
 
-                        <a href="https://www.techo.org/wp-content/uploads/2019/07/PARJ_5-arreglado_compressed.pdf" target="_blank" class="btn btn-primary">Realizar Donacion</a>
+
+                        <a href="" target="_blank" class="btn btn-primary">Realizar Donacion</a>
                 </div>
                 <div class="col-lg-6 banner-image">
                     <div class="img-effect">
-                        <img src="{{ asset('img/cxj/img3.jpg') }}" alt="" class="img-fluid image1">
+                        <img src="{{ asset('img/niñxsAdentro.jpg') }}" alt="" class="img-fluid image1">
                     </div>
 
                 </div>
@@ -94,7 +127,29 @@ Se Parte vos tambien con tu aporte mensual o donacion de unica vez</p>
         </div>
     </section>
     <!-- //hand-crafted -->
+   <section class="hand-crafted-2 py-5">
+        <div class="container py-lg-5">
+            <div class="row accord-info">
+                
+                <div class="col-lg-6 banner-image">
+                    <div class="img-effect">
+                        <img src="{{ asset('img/JuntandoAgua.jpg') }}" alt="" class="img-fluid image1">
+                    </div>
 
+                </div>
+                <div class="col-lg-6 pl-md-5">
+
+                    <h2 class="mb-md-5 tittle">¿Y si no tienes Agua?</h2>
+
+                    
+
+
+                        <a href="" target="_blank" class="btn btn-primary">Realizar Donacion</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
 

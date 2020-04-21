@@ -516,14 +516,18 @@ header {
 .banner-info-w3ls h3 {
     font-size: 2.7em;
     letter-spacing: 1px;
-    color: #fff;
+    color: #0092dd;
 }
 
 .banner-info-w3ls h2 {
-    color: #ffca00;
+    color: #EA6D4F;
     font-size: 0.9em;
     text-transform: uppercase;
     font-weight: 300;
+}
+
+.banner-info-w3ls p {
+    color: #FFFFFF;
 }
 
 .banner-info-w3ls a {
@@ -686,8 +690,17 @@ h3.tittle {
     background: #0092DD;
 }
 
+
+.stats solucion {
+    background: #0092DD;
+}
+
+.problema {
+    background: #D78E01;
+}
+
 .stats.h3 {
-    color: #EA6D4F;
+    color: #CCE0E3;
 }
 
 .counter {
@@ -714,6 +727,8 @@ h3.tittle {
     color: #ffffff;
     font-weight: 400;
 }
+
+
 .fa-2x {
     margin: 0 auto;
     float: none;
@@ -834,9 +849,16 @@ ul.team-icons.new-inf li {
 
 /* //slides images */
 
-section.hand-crafted {
-    background: #1e272e;
+section.hand-crafted, section.h3 {
+    background: #0092dd;
+    color: 333333;
 }
+
+section.hand-crafted-2, section.h3 {
+    background: #E3EFE4;
+    color: 333333;
+}
+
 
 ul.tic-info li {
     line-height: 2.2em;
@@ -997,7 +1019,7 @@ section.hand-crafted p {
 /* /accordion */
 
 .accord-info h3 {
-    color: #fff;
+    color: #C9E2C9;
 }
 
 /* //accordion */
