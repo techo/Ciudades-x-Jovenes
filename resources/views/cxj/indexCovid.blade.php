@@ -5,7 +5,21 @@
 
     <!-- mian-content -->
 
-    <div class="" id="home">
+    <div class="main-content-covid" id="home">
+     <section class="banner">
+            <div class="container">
+                <div class="row banner-grids">
+                    <div class="col-lg-6 banner-info-w3ls">
+                        <h2> Construí tu Ciudad</h2>
+                        <h1 class="mb-3" style="COLOR: #868686;">Ciudades x Jovenes</h1>
+                        <p class="mb-4"> Un Movimiento para que jóvenes de toda America Latina propongamos las ciudades que queremos y demostremos nuestro compromiso para lograrlo</p>
+                        <a href="#participa" class="btn">Conocé más!</a>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+    </div>
        <!--//counter-->
     <section class="stats py-lg-5">
         <div id="campus" class="container py-5">

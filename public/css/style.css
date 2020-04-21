@@ -472,6 +472,17 @@ header {
     -o-background-size: cover;
     -ms-background-size: cover;
     min-height: 50em;
+    max-height: 50em;
+    position: relative;
+}
+.main-content-covid {
+    background: url(../img/VaqueroSonrie.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    height: 30em;
     position: relative;
 }
 
@@ -498,7 +509,7 @@ header {
 }
 
 .banner-info-w3ls p {
-    color:#e8e3e3;
+    color:black;
     text-align: justify;
 }
 
@@ -665,13 +676,18 @@ h3.tittle {
 /*-- //features --*/
 .counter span {
     font-size: 2.3em;
-    color: #f3901e;
+    /*color: #EA6D4F;*/
+    color: "white";
     margin: 0;
 }
 /*--/counter--*/
 
 .stats {
-    background: #720082;
+    background: #0092DD;
+}
+
+.stats.h3 {
+    color: #EA6D4F;
 }
 
 .counter {
