@@ -20,7 +20,7 @@
 
     
 
-      <section class="hand-crafted py-5">
+    <section class="hand-crafted py-5">
         <div class="container">
             <div class="row accord-info">
                 <div class="col-lg-5 banner-image">
@@ -51,56 +51,70 @@
                 </div>
             </div>
         </div>
-        </section>
+    </section>
 
-         <div class="main-content-covid" id="home">
+    <div class="content-como" id="home">
         <section class="banner">
             <div class="container">
                 <div class="row banner-grids">
-                    <div class="col-lg-6 banner-info-w3ls"  style="background: rgba(15, 20, 12, 0.6);padding-right: 15px;padding-top: 15px;padding-bottom: 15px;">
-                        <h2> </h2>
-                        <h1 class="mb-3" style="COLOR: #0092dd;">DIFERENTES CUARENTENAS</h1>
-                        <p class="mb-4"> Desde TECHO seguimos trabajando para apoyar a las familias más vulnerables ante el COVID-19</p>
-                        <a href="#problema" class="btn">Números</a>
+                    <div class="col-lg-12 banner-info-w3ls"  style="">
+                        <h1 class="mt-3" style="COLOR: white; font-weight: bold; font-family: Novecentowide ">¿CÓMO LO HEMOS LOGRADO?</h1>
                     </div>
                    
                 </div>
             </div>
         </section>
     </div>
+    
+
        <!--//counter-->
-    <section class="stats py-lg-5 problema">
+    <section class="stats problema">
         <div id="problema" class="container py-5">
-            <h3 class="tittle text-center mb-lg-5 mb-4 px-lg-5">LA SITUACION</h3>
             <div class="row text-center">
-                <div class="col-md-3 col-sm-6">
+
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-2 col-sm-6">
                     <div class="counter">
-                      <span class="fa fa-tint"></span>
-                        <h3 class="timer count-title count-number">148</h3>
-                        <p class="count-text">Problemas de Agua</p>
+                      <img src="{{ asset('img/icono/5.png') }}" alt="" class="img-fluid image1">
+                        <h3 class="timer count-title count-number">1</h3>
+                        <p class="count-text"><b> Comunicación con liderazgos comunitarios.</b></p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-2 col-sm-6">
                     <div class="counter">
-                     <span class="fa fa-cutlery"></span>
-                        <h3 class="timer count-title count-number">317</h3>
-                        <p class="count-text">Falta de Alimento</p>
+                      <img src="{{ asset('img/icono/6.png') }}" alt="" class="img-fluid image1">
+                        <h3 class="timer count-title count-number">2</h3>
+                        <p class="count-text"><b> Monitoreo del estado de comunidades por parte del voluntariado</b></p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-2 col-sm-6">
                     <div class="counter">
-                      <span class="fa fa-signing"></span>
-                        <h3 class="timer count-title count-number">168</h3>
-                        <p class="count-text">Falta en Productos de limpieza</p>
+                      <img src="{{ asset('img/icono/7.png') }}" alt="" class="img-fluid image1">
+                        <h3 class="timer count-title count-number donar">3</h3>
+                        <p class="count-text"><b class="donar"> Mapeo de redes de Apoyo, públicas y privadas</b></p>
+                    </div> 
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <div class="counter">
+                      <img src="{{ asset('img/icono/8.png') }}" alt="" class="img-fluid image1">
+                        <h3 class="timer count-title count-number donar">4</h3>
+                        <p class="count-text"><b class="donar"> Reconocimiento de necesidades prioritarias</b></p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-2 col-sm-6">
                     <div class="counter">
-                      <span class="fa fa-thermometer-3"></span>
-                        <h3 class="timer count-title count-number">15</h3>
-                        <p class="count-text">Covid-19 <br> Positivos</p>
+                      <img src="{{ asset('img/icono/9.png') }}" alt="" class="img-fluid image1">
+                        <h3 class="timer count-title count-number">5</h3>
+                        <p class="count-text"><b> Coordinación entre líderes, TECHO y otros actores para la entrega de suministros.</b></p>
                     </div>
                 </div>
+                <div class="col-md-1">
+                </div>
+                <p  class="sub-sub-tittle" style='font-size: 0.8em;'><b> Hemos logrado alcanzar a más de 35,000 familias </b> gracias al apoyo de los liderazgos comunitarios con los que
+trabajamos, nuestro equipo de voluntariado, el trabajo en red con el sector público y privado, el apoyo en
+donaciones de miles de personas en América Latina e instituciones que nos permiten hacer entrega de los insumos
+de manera segura y siguiendo lineamientos de prevención. <b> Conoce todas las redes de apoyo por país aquí.</b> </p>
             </div>
         </div>
     </section>

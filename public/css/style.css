@@ -485,6 +485,17 @@ header {
     position: relative;
 }
 
+.content-como {
+    background: url(../img/como.png) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    height: 20em;
+    position: relative;
+}
+
 .main-content-nicaragua {
     background: url(../img/cxj/Banner-Nicaragua.jpg) no-repeat center;
     background-size: cover;
@@ -715,7 +726,7 @@ h3.tittle {
 }
 
 .problema {
-    background: #D78E01;
+    background: white;
 }
 
 .stats.h3 {
@@ -730,6 +741,8 @@ h3.tittle {
 }
 
 .count-title {
+    color: #0092dd !IMPORTANT;
+    font-family: Novecentowide;
     font-size: 3em;
     margin-top: 10px;
     margin-bottom: 0;
@@ -738,7 +751,20 @@ h3.tittle {
     color: #fff;
 }
 .count-text {
-    font-size: 16px;
+    color: #0092dd !IMPORTANT;
+    font-family: Novecentowide;
+    font-size: 0.7em;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+}
+.count-text-2 {
+    color: #0092dd !IMPORTANT;
+    font-family: Novecentowide;
+    font-size: 0.5em;
     margin-top: 10px;
     letter-spacing: 2px;
     margin-bottom: 0;
