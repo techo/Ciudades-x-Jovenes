@@ -1587,13 +1587,13 @@ ul.links li a:hover {
 }
 
 .cpy-right {
-    background: rgba(30, 39, 46, 0.98);
+    background: #0092dd;
 }
 
 .cpy-right p,
 .cpy-right a {
     letter-spacing: 1px;
-    color: #999;
+    color: white;
     line-height: 1em;
     margin-top: 1em;
 }
