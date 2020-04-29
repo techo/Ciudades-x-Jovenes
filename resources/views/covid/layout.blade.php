@@ -52,22 +52,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">IMPACTO <span class="sr-only"></span></a>
+        <a class="nav-link" href="#impacto">IMPACTO <span class="sr-only"></span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">PROCESO</a>
+        <a class="nav-link" href="#proceso">PROCESO</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#vulnerabilidad">VULNERABILIDAD</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">ACCIÓNES</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">HISTORIAS</a>
+        <a class="nav-link" href="#acciones">ACCIÓNES</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link donar" href="#">DONAR</a>
+        <a class="nav-link donar" href="#donar">DONAR</a>
       </li>
     </ul>
   </div>

@@ -20,7 +20,7 @@
 
     
 
-    <section class="hand-crafted py-5">
+    <section class="hand-crafted py-5" id="impacto">
         <div class="container">
             <div class="row accord-info">
                 <div class="col-lg-5 banner-image">
@@ -68,7 +68,7 @@
     
 
        <!--//counter-->
-    <section class="stats problema">
+    <section class="stats problema" id="proceso">
         <div id="problema" class="container py-5">
             <div class="row text-center">
 
@@ -132,7 +132,7 @@
         </section>
     </div>
 
-    <section class="stats py-lg-5" id="problema">
+    <section class="stats py-lg-5" id="vulnerabilidad">
         
         <div id="problema" class="container">
             <h4 class="sub-tittle text-center" style='font-size: 1em'><b>TECHO trabaja con más de 500 comunidades en América Latina y El Caribe. A través de un sistema de
@@ -185,142 +185,93 @@
         <!-- //header -->
         <!-- banner -->
         <!-- //banner -->
-    
-    @include('covid.agenda')
-    
-   
-
-
-    <!--//portfolio-->
-    <!-- /hand-crafted -->
-    <section class="hand-crafted py-5">
-        <div class="container py-lg-5">
-            <div class="row accord-info">
-                <div class="col-lg-6 pl-md-5">
-
-                    <h2 class="mb-md-5 tittle">¿Y si no tienes 2 metros para distanciarse?</h2>
-
-                    
-
-
-                        <a href="" target="_blank" class="btn btn-primary">Realizar Donacion</a>
-                </div>
-                <div class="col-lg-6 banner-image">
-                    <div class="img-effect">
-                        <img src="{{ asset('img/niñxsAdentro.jpg') }}" alt="" class="img-fluid image1">
+    <div class="content-acciones" id="home">
+        <section class="banner">
+            <div class="container">
+                <div class="row banner-grids">
+                    <div class="col-lg-12 banner-info-w3ls"  style="">
+                        <h1 class="mt-3" style="COLOR: white; font-weight: bold; font-family: Novecentowide; ">CONOCE NUESTRAS ACCIONES ANTE ESTA EMERGENCIA</h1>
                     </div>
-
+                   
                 </div>
-
             </div>
+        </section>
+    </div>
+    
+    <section class=" py-lg-5" id="acciones">
+        <div class="container ">
+            <h4 class="sub-tittle text-center" style='font-size: 0.9em'><b>Desde el 16 de marzo de 2020, TECHO suspendió todas las actividades masivas y en comunidad, como
+                compromiso con el cuidado y prevención con todo nuestro circulo de colaboración institucional. Aún así,
+                nuestras operaciones continuan desde casa. Conoce nuestras acciones ante la emergencia del COVID19.<b></h4>
+            <br>
+            <div class="row text-center">
+                <div class="col-md-4 col-sm-6 pl-2 pr-2">
+                    <div class="counter">
+                        <h3 class="timer count-title count-number" style="font-size: 1.5em"> APOYO FAMILIAR <br> ANTE EL COVID19</h3>
+                        <img src="{{ asset('img/circle1.png') }}" alt="" class="image1 rounded-circle" style="max-width: 12em;">
+                        <h5  class="sub-sub-tittle text-center" style='font-size: 0.9em; padding-top: 0.2em; font-family: Roboto; font-weight: bold;'>
+                            Alimentos, productos esenciales para las zonas más afectadas y prioritarias de la región, mapeo de necesidad de vivienda, proyectos vinculados al acceso al agua.</h5>
+                        <p class="sub-tittle" style="font-size: 0.7em" >Contacta a tu oficina local<br> si deseas más información</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 pl-2 pr-2">
+                    <div class="counter">
+                        <h3 class="timer count-title count-number" style="font-size: 1.5em"> ACOMPAÑAMIENTO <br> TERRITORIAL</h3>
+                        <img src="{{ asset('img/circle2.jpg') }}" alt="" class="image1 rounded-circle" style="max-width: 12em;">
+                        <h5  class="sub-sub-tittle text-center" style='font-size: 0.9em; padding-top: 0.2em; font-family: Roboto; font-weight: bold;'>
+                            Hemos desplegado un sistema de acompañamiento diario junto a más de 450 liderazgos comunitarios, para poder conocer las necesidades comunitarias ante la pandemia
+                        </h5>
+                        <p class="sub-tittle" style="font-size: 0.7em" >Contacta a tu oficina local <br> si deseas más información</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 pl-2 pr-2">
+                    <div class="counter">
+                        <h3 class="timer count-title count-number" style="font-size: 1.5em"> VOLUNTARIADO <br> DESDE CASA</h3>
+                        <img src="{{ asset('img/circle3.jpeg') }}" alt="" class="image1 rounded-circle"  style="max-width: 12em;">
+                        <h5  class="sub-sub-tittle text-center" style='font-size: 0.9em; padding-top: 0.2em; font-family: Roboto; font-weight: bold;'>
+                            Las juventudes de América Latina siguen siendo claves para la construcción de ciudades justas e inclusivas. El voluntariado continua desde casa.
+                        </h5>
+                        <p class="sub-tittle" style="font-size: 0.7em" >Contacta a tu oficina local<br> si deseas más información</p>
+                    </div>
+                </div>
+            </div>
+
+
+ 
         </div>
     </section>
-    <!-- //hand-crafted -->
-   <section class="hand-crafted-2 py-5">
-        <div class="container py-lg-5">
-            <div class="row accord-info">
-                
-                <div class="col-lg-6 banner-image">
-                    <div class="img-effect">
-                        <img src="{{ asset('img/JuntandoAgua.jpg') }}" alt="" class="img-fluid image1">
+    
+    <div class="content-ayuda" id="home">
+        <section class="banner">
+            <div class="container">
+                <div class="row banner-grids">
+                    <div class="col-lg-12 banner-info-w3ls"  style="">
+                        <h1 class="mt-3" style="COLOR: white; font-weight: bold; font-family: Novecentowide;padding-top: 1.1em; ">AYUDA DESDE CASA</h1>
                     </div>
-
-                </div>
-                <div class="col-lg-6 pl-md-5">
-
-                    <h2 class="mb-md-5 tittle">¿Y si no tienes Agua?</h2>
-
-                    
-
-
-                        <a href="" target="_blank" class="btn btn-primary">Realizar Donacion</a>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- testimonials -->
-    <div class="testimonials py-md-5 py-5">
-        <div class="container py-xl-5 py-lg-3">
-            <h3 class="tittle  text-center mb-lg-5 mb-3">Los Asentamientos dicen</h3>
-
-            <div class="testimonials_grid_w3ls mt-lg-0 mt-4">
-                <div class="p-md-5 p-4">
-                    <p class="sub-test"><span class="fa fa-quote-left" aria-hidden="true"></span> Hoy en dia 
-                        no podemos evitar en trabajar en conjunto.
-                    </p>
-                    <div class="row mt-4">
-                        <div class="col-3 testi-img-res">
-                            <img src="{{ asset('img/cxj/te2.jpg') }}" alt="" class="img-fluid" />
-                        </div>
-                        <div class="col-9 testi_grid mt-xl-3 mt-lg-2 mt-md-4 mt-2">
-                            <h5 class="mb-2">Valeria</h5>
-                            <p>Comedor La Esperanza, Argentina</p>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
-
-        </div>
+        </section>
     </div>
 
-
-    
-    <!-- //testimonials -->
-    <!--footer -->
- <!--    <footer>
-        <div class="footer_1its py-5">
-            <div class="container py-md-4">
-
-                <div class="row footer-top mb-md-5 mb-4">
-                    <div class="col-lg-4 col-md-6 footer-grid_section_1its" data-aos="fade-right">
-                        <div class="footer-title-w3pvt">
-                            <h3>Address</h3>
-                        </div>
-                        <div class="footer-text">
-                            <p>Address : 1234 lock, Charlotte, North Carolina, United States</p>
-                            <p>Phone : +12 534894364</p>
-                            <p>Email : <a href="mailto:info@example.com">info@example.com</a></p>
-                            <p>Fax : +12 534894364</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mt-md-0 mt-4 footer-grid_section_1its">
-                        <div class="footer-title-w3pvt">
-                            <h3>Quick Links</h3>
-                        </div>
-                         <div class="row no-gutters">
-                            <ul class="links">
-                                <li><a href="index.html">Home </a></li>
-                                <li><a href="about.html">About </a></li>
-                                <li><a href="features.html">Services</a></li>
-
-                                <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="contact.html">Contact </a></li>
-                            </ul>
-                            
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 mt-lg-0 mt-4 col-sm-12 footer-grid_section_1its" data-aos="fade-left">
-                        <div class="footer-title-w3pvt">
-                            <h3>Newsletter</h3>
-                        </div>
-                        <div class="footer-text">
-                            <p>By subscribing to our mailing list you will always get latest news and updates from us.</p>
-                            <form action="#" method="post">
-                                <input type="email" name="Email" placeholder="Enter your email..." required="">
-                                <button class="btn1"><span class="fa fa-paper-plane-o" aria-hidden="true"></span></button>
-                                <div class="clearfix"> </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+    <section class="stats py-lg-5" id="donar">
+        
+        <div id="problema" class="container">
+            <h4 class="sub-tittle text-center" style='font-size: 1em; font-family: Roboto;'><b>Apoya las iniciativas de apoyo directo a familias que viven en situación de pobreza en América Latina.Nuestro
+                compromiso por un mundo justo y sin pobreza nos compromete a dirigir nuestros recursos y capacidades en
+                apoyo a los y las habitantes de asentamientos populares en América Latina .<b></h4>
+            <h5  class="sub-sub-tittle text-center" style='font-size: 0.9em; font-family: Roboto;'>
+                        Puedes ayudar a que nuestros equipos en toda la región puedan seguir en contacto directo con las familias y
+                        liderazgos comunitarios, promoviendo nuestro sistema de Acompañamiento Territorial ante el COVID-19.</h5>
+            <br>
+            <div class="text-center">
+                <button class="btn contact-form" style="background-color: #0092dd; color: white; font-family: Novecentowide;">DONA AHORA</button>
             </div>
         </div>
-    </footer> -->
-    <!-- //footer -->
+    </section>
+
+
+   
 
     @include('cxj.copyright')
 @endsection

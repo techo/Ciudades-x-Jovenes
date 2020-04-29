@@ -496,6 +496,28 @@ header {
     position: relative;
 }
 
+.content-ayuda {
+    background: url(../img/ayuda.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    height: 20em;
+    position: relative;
+}
+
+.content-acciones {
+    background: url(../img/acciones.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    height: 20em;
+    position: relative;
+}
+
 .content-como {
     background: url(../img/como.png) no-repeat center;
     background-size: cover;
@@ -1345,9 +1367,9 @@ input.checkbox:checked:after {
 }
 
 .contact-form button.btn {
-    background: #181a1d;
+    background-color: #0092dd;
     padding: 10px 30px;
-    font-size: 16px;
+    font-size: 1em;
     letter-spacing: 1px;
     color: #fff;
     border-radius: 5px;
