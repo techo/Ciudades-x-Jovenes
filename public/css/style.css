@@ -481,7 +481,7 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    height: 30em;
+    height: 20em;
     position: relative;
 }
 
@@ -525,6 +525,15 @@ header {
     font-weight: 300;
 }
 
+.banner-info-w3ls h1 {
+    font-family: Novecentowide
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
 .banner-info-w3ls p {
     color: #FFFFFF;
 }
@@ -550,7 +559,7 @@ header {
 }
 
 section.banner {
-    padding: 4em 0 4em 0;
+    padding-top: 2em;
 }
 
 /* image layers effect */
@@ -629,19 +638,30 @@ section.banner {
 /*-- features --*/
 
 h3.tittle {
-    font-size: 2.7em;
+    font-size: 2em;
     letter-spacing: 1px;
-    color: #212529;
+    color: #0092dd;
     font-weight: 700;
+    font-family: Novecentowide;
 }
 
 .sub-tittle {
-    font-size: 0.35em;
-    color: #ff3838;
+    font-size: 0.8em;
+    color: #0092dd;
     font-weight: 500;
     letter-spacing: 1px;
     display: block;
-    text-transform: uppercase;
+    font-family: Novecentowide;
+}
+
+.sub-sub-tittle {
+    font-size: 0.8em;
+    color: #868686;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: block;
+    font-family: Novecentowide;
+
 }
 
 .feature-grids h3 {
@@ -849,7 +869,7 @@ ul.team-icons.new-inf li {
 /* //slides images */
 
 section.hand-crafted, section.h3 {
-    background: #0092dd;
+    background: white;
     color: 333333;
 }
 
@@ -1017,8 +1037,9 @@ section.hand-crafted p {
 
 /* /accordion */
 
-.accord-info h3 {
-    color: #C9E2C9;
+.accord-info {
+    color: #0092dd;
+    text-align: end;
 }
 
 /* //accordion */
@@ -1581,7 +1602,7 @@ a.move-top span {
 @media(max-width:1366px) {
     h3.tittle,
     .ab-info h4 {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 }
 

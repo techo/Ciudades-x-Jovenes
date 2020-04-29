@@ -9,9 +9,8 @@
      <section class="banner">
             <div class="container">
                 <div class="row banner-grids">
-                    <div class="col-lg-6 banner-info-w3ls"  style="background: rgba(15, 20, 12, 0.6);padding-right: 15px;padding-top: 15px;padding-bottom: 15px;">
-                        <h2> </h2>
-                        <h1 class="mb-3" style="COLOR: #0092dd;">TECHO ANTE EL COVID 19</h1>
+                    <div class="col-lg-12 banner-info-w3ls"  style="">
+                        <h1 class="mt-3" style="COLOR: white; font-weight: bold; font-family: Novecentowide ">TECHO ANTE EL COVID 19</h1>
                     </div>
                    
                 </div>
@@ -22,24 +21,34 @@
     
 
       <section class="hand-crafted py-5">
-        <div class="container py-lg-5">
+        <div class="container">
             <div class="row accord-info">
-                <div class="col-lg-6 pl-md-5">
-
-                    <h2 class="mb-md-5 tittle">¿Y si no tienes 2 metros para distanciarse?</h2>
-
-                    
-
-
-                        <a href="" target="_blank" class="btn btn-primary">Realizar Donacion</a>
-                </div>
-                <div class="col-lg-6 banner-image">
+                <div class="col-lg-5 banner-image">
                     <div class="img-effect">
-                        <img src="{{ asset('img/mapa.png') }}" alt="" class="img-fluid image1">
+                        <img src="{{ asset('img/MAPA.png') }}" alt="" class="img-fluid image1">
                     </div>
 
                 </div>
+                <div class="col-lg-7 pl-md-5">
 
+                    <h3 class="tittle">SON <b class="donar"> 35.000 </b> Familias Beneficiadas</h3>
+                    <h4 class="sub-tittle" style='font-size: 0.7em;'>Nuestras acciones ante la pandemia buscan
+                        recaudar fondos que contribuyan a disminuir la
+                        vulnerabilidad de las familias que habitan en
+                        asentamientos frente a la crisis del COVID-19</h4>
+                    <h5  class="sub-sub-tittle" style='font-size: 0.8em;'>
+                        <b> Conoce en tiempo real el impacto de los esfuerzos de
+                        TECHO ante la pandemia. </b> <br>
+                        Lo recaudado esta siendo destinada a la compra de
+                        alimentos y productos esenciales para las zonas más
+                        afectadas y prioritarias de la región, para construir más
+                        viviendas de emergencia y para financiar proyectos
+                        vinculados al acceso al agua cuando regresemos al trabajo
+                        en las comunidades.</h5>
+                    <h4 class="sub-tittle" style='font-weight: bold; font-size: 1.1em;'>MÁS DE <b class="donar"> 140.000 </b> PERSONAS
+                        ALCANZADAS EN TODA AMÉRICA
+                        LATINA Y EL CARIBE</h4>
+                </div>
             </div>
         </div>
         </section>
