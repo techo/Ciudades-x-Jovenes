@@ -485,6 +485,17 @@ header {
     position: relative;
 }
 
+.content-mas-vulnerables {
+    background: url(../img/familias.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    height: 20em;
+    position: relative;
+}
+
 .content-como {
     background: url(../img/como.png) no-repeat center;
     background-size: cover;
@@ -717,12 +728,12 @@ h3.tittle {
 /*--/counter--*/
 
 .stats {
-    background: #0092DD;
+    background: white;
 }
 
 
 .stats solucion {
-    background: #0092DD;
+    background: white;
 }
 
 .problema {

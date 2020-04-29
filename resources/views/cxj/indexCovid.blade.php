@@ -112,42 +112,70 @@
                 <div class="col-md-1">
                 </div>
                 <p  class="sub-sub-tittle" style='font-size: 0.8em;'><b> Hemos logrado alcanzar a más de 35,000 familias </b> gracias al apoyo de los liderazgos comunitarios con los que
-trabajamos, nuestro equipo de voluntariado, el trabajo en red con el sector público y privado, el apoyo en
-donaciones de miles de personas en América Latina e instituciones que nos permiten hacer entrega de los insumos
-de manera segura y siguiendo lineamientos de prevención. <b> Conoce todas las redes de apoyo por país aquí.</b> </p>
+                    trabajamos, nuestro equipo de voluntariado, el trabajo en red con el sector público y privado, el apoyo en
+                    donaciones de miles de personas en América Latina e instituciones que nos permiten hacer entrega de los insumos
+                    de manera segura y siguiendo lineamientos de prevención. <b> Conoce todas las redes de apoyo por país aquí.</b> </p>
             </div>
         </div>
     </section>
-    <section class="stats py-lg-5" id="solucion">
-        <div id="solucion" class="container py-5">
-            <h3 class="tittle text-center mb-lg-5 mb-4 px-lg-5">EL APORTE DE TECHO</h3>
+
+    <div class="content-mas-vulnerables" id="home">
+        <section class="banner">
+            <div class="container">
+                <div class="row banner-grids">
+                    <div class="col-lg-12 banner-info-w3ls"  style="">
+                        <h1 class="mt-3" style="COLOR: white; font-weight: bold; font-family: Novecentowide ">LAS FAMILIAS MÁS VULNERABLES ANTE LA PANDEMIA</h1>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="stats py-lg-5" id="problema">
+        
+        <div id="problema" class="container">
+            <h4 class="sub-tittle text-center" style='font-size: 1em'><b>TECHO trabaja con más de 500 comunidades en América Latina y El Caribe. A través de un sistema de
+                Acompañamiento Territorial despegado ante el COVD-19, contamos con un mapa regional de necesidades de
+                abastecimiento y prevención para mas de 85 mil familias.<b></h4>
+                    <h5  class="sub-sub-tittle text-center" style='font-size: 0.9em;'>
+                        Son las familias que viven en situación de pobreza, habitantes de asentamientos informales, altamente vulnerables ante la
+                        pandemia. El desabastecimiento de comida, servicios básicos, la falta de acceso a insumos de higiene en previsión al COVID19, la
+                        falta de vivienda digna para resguardase del virus; son parte de las necesidades que las familias tienen hoy. <br><b>Conoce más sobre
+                        nustra campaña de recaudación entrando a <a href="www.techo.org/covid19"> techo.org/covid19 </a></b></h5>
+                        <br>
+            <h3 class="tittle text-center mb-lg-5 mb-4 px-lg-5" style="font-size: 3em;">cantidad de familias con necesidad de apoyo</h3>
             <div class="row text-center">
                 <div class="col-md-3 col-sm-6">
                     <div class="counter">
-                      <span class="fa fa-tint"></span>
-                        <h3 class="timer count-title count-number">750</h3>
-                        <p class="count-text">Litros Repartidos</p>
+                        <h3 class="timer count-title count-number" style="font-size: 2em"> ALIMENTOS</h3>
+                        <img src="{{ asset('img/icono/2.png') }}" alt="" class="img-fluid image1">
+                        <h3 class="timer count-title count-number">9500</h3>
+                        <p class="count-text" style="font-size: 1em" >Familias</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="counter">
-                     <span class="fa fa-cutlery"></span>
-                        <h3 class="timer count-title count-number">1200</h3>
-                        <p class="count-text">Kits Entregados</p>
+                        <h3 class="timer count-title count-number" style="font-size: 2em"> HIGIENE</h3>
+                        <img src="{{ asset('img/icono/1.png') }}" alt="" class="img-fluid image1">
+                        <h3 class="timer count-title count-number">6300</h3>
+                        <p class="count-text" style="font-size: 1em" >Familias</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="counter">
-                      <span class="fa fa-signing"></span>
-                        <h3 class="timer count-title count-number">130</h3>
-                        <p class="count-text">Kits Entregados</p>
+                        <h3 class="timer count-title count-number" style="font-size: 2em"> AGUA</h3>
+                        <img src="{{ asset('img/icono/3.png') }}" alt="" class="img-fluid image1">
+                        <h3 class="timer count-title count-number">3400</h3>
+                        <p class="count-text" style="font-size: 1em" >Familias</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="counter">
-                      <span class="fa fa-thermometer-3"></span>
-                        <h3 class="timer count-title count-number">1530</h3>
-                        <p class="count-text">Barbijos Entregados</p>
+                        <h3 class="timer count-title count-number" style="font-size: 2em"> VIVIENDA</h3>
+                        <img src="{{ asset('img/icono/4.png') }}" alt="" class="img-fluid image1">
+                        <h3 class="timer count-title count-number">1500</h3>
+                        <p class="count-text" style="font-size: 1em" >Familias</p>
                     </div>
                 </div>
             </div>
