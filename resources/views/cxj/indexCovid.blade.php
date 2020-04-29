@@ -11,6 +11,45 @@
                 <div class="row banner-grids">
                     <div class="col-lg-6 banner-info-w3ls"  style="background: rgba(15, 20, 12, 0.6);padding-right: 15px;padding-top: 15px;padding-bottom: 15px;">
                         <h2> </h2>
+                        <h1 class="mb-3" style="COLOR: #0092dd;">TECHO ANTE EL COVID 19</h1>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+    </div>
+
+    
+
+      <section class="hand-crafted py-5">
+        <div class="container py-lg-5">
+            <div class="row accord-info">
+                <div class="col-lg-6 pl-md-5">
+
+                    <h2 class="mb-md-5 tittle">¿Y si no tienes 2 metros para distanciarse?</h2>
+
+                    
+
+
+                        <a href="" target="_blank" class="btn btn-primary">Realizar Donacion</a>
+                </div>
+                <div class="col-lg-6 banner-image">
+                    <div class="img-effect">
+                        <img src="{{ asset('img/mapa.png') }}" alt="" class="img-fluid image1">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </section>
+
+         <div class="main-content-covid" id="home">
+        <section class="banner">
+            <div class="container">
+                <div class="row banner-grids">
+                    <div class="col-lg-6 banner-info-w3ls"  style="background: rgba(15, 20, 12, 0.6);padding-right: 15px;padding-top: 15px;padding-bottom: 15px;">
+                        <h2> </h2>
                         <h1 class="mb-3" style="COLOR: #0092dd;">DIFERENTES CUARENTENAS</h1>
                         <p class="mb-4"> Desde TECHO seguimos trabajando para apoyar a las familias más vulnerables ante el COVID-19</p>
                         <a href="#problema" class="btn">Números</a>
@@ -95,7 +134,6 @@
         <!-- //header -->
         <!-- banner -->
         <!-- //banner -->
-    </div>
     
     @include('covid.agenda')
     

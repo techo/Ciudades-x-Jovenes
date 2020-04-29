@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row no-gutters">
 		<div class="col-md-8">
-			<p class="copy-w3layouts">© 2019 Ciudades x Jovenes. All rights reserved | Design by
+			<p class="copy-w3layouts">© 2020 TECHO. All rights reserved | Design by
 				<a href="http://w3layouts.com">TECHO.</a>
 			</p>
 		</div>

@@ -1,0 +1,26 @@
+.nav-link {
+	color: #0092dd !IMPORTANT;
+    font-family: Novecentowide;
+    font-size: 1rem;
+} 
+.donar{
+	color: #EA6D4F !IMPORTANT;
+    font-weight: bold;
+    font-family: Novecentowide;
+}
+
+@font-face {
+  font-family: Novecentowide;
+  src: url('/fonts/Novecentowide-Normal.otf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Novecentowide;
+  src: url('/fonts/Novecentowide-Bold.otf');
+  font-weight: bold;
+}
+
+body {
+    font-family: 'Novecentowide', sans-serif;
+}

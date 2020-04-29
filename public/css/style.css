@@ -10,7 +10,6 @@ body {
     margin: 0;
     font-size: 100%;
     background: #fff;
-    font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -476,7 +475,7 @@ header {
     position: relative;
 }
 .main-content-covid {
-    background: url(../img/VaqueroSonrie.jpg) no-repeat center;
+    background: url(../img/TECHOANTECOVID19.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1680,7 +1679,7 @@ a.move-top span {
     }
     div#navbarSupportedContent {
         padding: 1em;
-        background: #000;
+        background: "white";
         text-align: center;
     }
     .navbar-light .navbar-toggler {
