@@ -208,7 +208,7 @@
                 <div class="col-md-4 col-sm-6 pl-2 pr-2">
                     <div class="counter">
                         <h3 class="timer count-title count-number" style="font-size: 1.5em"> APOYO FAMILIAR <br> ANTE EL COVID19</h3>
-                        <img src="{{ asset('img/circle1.png') }}" alt="" class="image1 rounded-circle" style="max-width: 12em;">
+                        <img src="{{ asset('img/circle1.jpg') }}" alt="" class="image1 rounded-circle" style="max-width: 12em;">
                         <h5  class="sub-sub-tittle text-center" style='font-size: 0.9em; padding-top: 0.2em; font-family: Roboto; font-weight: bold;'>
                             Alimentos, productos esenciales para las zonas más afectadas y prioritarias de la región, mapeo de necesidad de vivienda, proyectos vinculados al acceso al agua.</h5>
                         <p class="sub-tittle" style="font-size: 0.7em" >Contacta a tu oficina local<br> si deseas más información</p>
@@ -217,7 +217,7 @@
                 <div class="col-md-4 col-sm-6 pl-2 pr-2">
                     <div class="counter">
                         <h3 class="timer count-title count-number" style="font-size: 1.5em"> ACOMPAÑAMIENTO <br> TERRITORIAL</h3>
-                        <img src="{{ asset('img/circle2.jpg') }}" alt="" class="image1 rounded-circle" style="max-width: 12em;">
+                        <img src="{{ asset('img/circle2.png') }}" alt="" class="image1 rounded-circle" style="max-width: 12em;">
                         <h5  class="sub-sub-tittle text-center" style='font-size: 0.9em; padding-top: 0.2em; font-family: Roboto; font-weight: bold;'>
                             Hemos desplegado un sistema de acompañamiento diario junto a más de 450 liderazgos comunitarios, para poder conocer las necesidades comunitarias ante la pandemia
                         </h5>
@@ -240,6 +240,19 @@
  
         </div>
     </section>
+
+<!--     <div class="content-voluntad" id="home">
+        <section class="banner">
+            <div class="container">
+                <div class="row banner-grids">
+                    <div class="col-lg-12 banner-info-w3ls"  style="">
+                        <h1 class="mt-3" style="COLOR: white; font-weight: bold; font-family: Novecentowide;padding-top: 1.1em; ">VOLUNTAD Y TRABAJO ANTE EL COVID19</h1>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+    </div> -->
     
     <div class="content-ayuda" id="home">
         <section class="banner">

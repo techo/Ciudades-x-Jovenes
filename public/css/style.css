@@ -507,6 +507,17 @@ header {
     position: relative;
 }
 
+.content-voluntad {
+    background: url(../img/voluntad.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    height: 20em;
+    position: relative;
+}
+
 .content-acciones {
     background: url(../img/acciones.jpg) no-repeat center;
     background-size: cover;
