@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-lg-7 pl-md-5">
 
-                    <h3 class="tittle">SON <b class="donar"> 35.000 </b> Familias Beneficiadas</h3>
+                    <h3 class="tittle">SON <b class="donar"> {{ $desabastecimiento['familias'] }} </b> Familias Beneficiadas</h3>
                     <h4 class="sub-tittle" style='font-size: 0.7em;'>Nuestras acciones ante la pandemia buscan
                         recaudar fondos que contribuyan a disminuir la
                         vulnerabilidad de las familias que habitan en

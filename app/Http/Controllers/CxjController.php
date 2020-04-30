@@ -29,6 +29,7 @@ class CxjController extends Controller
         $desabastecimiento['alimento'] = $rows[2]['content']['$t'];
         $desabastecimiento['limpieza'] =  $rows[3]['content']['$t'];
         $desabastecimiento['primera'] =  $rows[4]['content']['$t'];
+        $desabastecimiento['familias'] =  $rows[5]['content']['$t'];
         
     	return view('cxj/indexCovid', compact('desabastecimiento'));
     }
