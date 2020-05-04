@@ -583,7 +583,6 @@ header {
 .banner-info-w3ls h1 {
     font-family: Novecentowide
     color: white;
-    font-size: 3em;
     text-align: center;
     text-transform: uppercase;
     font-weight: 300;
@@ -2076,6 +2075,13 @@ a.move-top span {
 	.popup {
 		width: 70%;
 	}
+    .banner-info-w3ls h1 {
+        font-size: 2em;
+    }
+    
+    #problema .img-fluid {
+    max-width: 50% !IMPORTANT;
+    }
 }
 
 @media(max-width:414px) {

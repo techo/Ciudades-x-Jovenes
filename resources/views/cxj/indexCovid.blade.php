@@ -53,6 +53,61 @@
         </div>
     </section>
 
+    <div class="content-voluntad" id="home">
+        <section class="banner">
+            <div class="container">
+                <div class="row banner-grids">
+                    <div class="col-lg-12 banner-info-w3ls"  style="">
+                        <h1 class="mt-3" style="COLOR: white; font-weight: bold; font-family: Novecentowide;padding-top: 1.1em; ">VOLUNTAD Y TRABAJO ANTE EL COVID19</h1>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <section class="hand-crafted py-5" id="impacto">
+        <div class="container">
+            <div class="row accord-info">
+                
+                <div class="col-lg-7 pl-md-5 align-middle">
+                    <h4 class="sub-tittle" style='font-weight: bold; font-size: 1.1em;'>Historia de voluntario y liderazgo</h4>
+                    <h5  class="sub-sub-tittle" style='font-size: 0.8em;'>
+                        <b> Historia de voluntario y liderazgo</b> <br>
+                        Lo recaudado esta siendo destinada a la compra de
+                        alimentos y productos esenciales para las zonas más
+                        afectadas y prioritarias de la región, para construir más
+                        viviendas de emergencia y para financiar proyectos
+                        vinculados al acceso al agua cuando regresemos al trabajo
+                        en las comunidades.</h5>
+                </div>
+                <div class="col-lg-5 banner-image">
+                    <div class="img-effect">
+                        <img src="{{ asset('img/circle2.png') }}" alt="" class="img-fluid image1">
+                    </div>
+
+                </div>
+            </div>
+            <div class="row accord-info pt-5">
+                <div class="col-lg-5 banner-image">
+                    <div class="img-effect">
+                        <img src="{{ asset('img/circle2.png') }}" alt="" class="img-fluid image1">
+                    </div>
+
+                </div>
+                <div class="col-lg-7 pl-md-5">
+
+                    
+                    <h4 class="sub-tittle" style='font-weight: bold; font-size: 1.1em;'>"Ingresar aquí testimonio de
+                        liderazgos comunitarios, trabajando, accionando y promoviendo la organización ante la pandemia"</h4>
+                    <h5  class="sub-sub-tittle" style='font-size: 0.8em;'>
+                        <b> - Nombre de la persona</b> </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <div class="content-como" id="home">
         <section class="banner">
             <div class="container">
@@ -119,21 +174,11 @@
         </div>
     </section>
 
-    <div class="content-acciones" id="home">
-        <section class="banner">
-            <div class="container">
-                <div class="row banner-grids">
-                    <div class="col-lg-12 banner-info-w3ls"  style="">
-                        <h1 class="mt-3" style="COLOR: white; font-weight: bold; font-family: Novecentowide; ">CONOCE NUESTRAS ACCIONES ANTE ESTA EMERGENCIA</h1>
-                    </div>
-                   
-                </div>
-            </div>
-        </section>
-    </div>
     
-    <section class=" py-lg-5" id="acciones">
+    <section id="acciones">
         <div class="container ">
+            <h3 class="tittle text-center mb-lg-5 mb-4 px-lg-5" style="font-size: 3em;">NUESTRAS ACCIONES ANTE ESTA EMERGENCIA</h3>
+
             <h4 class="sub-tittle text-center" style='font-size: 0.9em'><b>Desde el 16 de marzo de 2020, TECHO suspendió todas las actividades masivas y en comunidad, como
                 compromiso con el cuidado y prevención con todo nuestro circulo de colaboración institucional. Aún así,
                 nuestras operaciones continuan desde casa. Conoce nuestras acciones ante la emergencia del COVID19.<b></h4>
@@ -145,7 +190,7 @@
                         <img src="{{ asset('img/circle1.jpg') }}" alt="" class="image1 rounded-circle" style="max-width: 12em;">
                         <h5  class="sub-sub-tittle text-center" style='font-size: 0.9em; padding-top: 0.2em; font-family: Roboto; font-weight: bold;'>
                             Alimentos, productos esenciales para las zonas más afectadas y prioritarias de la región, mapeo de necesidad de vivienda, proyectos vinculados al acceso al agua.</h5>
-                        <p class="sub-tittle" style="font-size: 0.7em" >Contacta a tu oficina local<br> si deseas más información</p>
+                        <p class="sub-tittle" style="font-size: 0.7em; font-weight: bold;" >Contacta a tu oficina local<br> si deseas más información</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 pl-2 pr-2">
@@ -155,7 +200,7 @@
                         <h5  class="sub-sub-tittle text-center" style='font-size: 0.9em; padding-top: 0.2em; font-family: Roboto; font-weight: bold;'>
                             Hemos desplegado un sistema de acompañamiento diario junto a más de 450 liderazgos comunitarios, para poder conocer las necesidades comunitarias ante la pandemia
                         </h5>
-                        <p class="sub-tittle" style="font-size: 0.7em" >Contacta a tu oficina local <br> si deseas más información</p>
+                        <p class="sub-tittle" style="font-size: 0.7em; font-weight: bold;" >Contacta a tu oficina local <br> si deseas más información</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 pl-2 pr-2">
@@ -165,7 +210,7 @@
                         <h5  class="sub-sub-tittle text-center" style='font-size: 0.9em; padding-top: 0.2em; font-family: Roboto; font-weight: bold;'>
                             Las juventudes de América Latina siguen siendo claves para la construcción de ciudades justas e inclusivas. El voluntariado continua desde casa.
                         </h5>
-                        <p class="sub-tittle" style="font-size: 0.7em" >Contacta a tu oficina local<br> si deseas más información</p>
+                        <p class="sub-tittle" style="font-size: 0.7em; font-weight: bold;" >Contacta a tu oficina local<br> si deseas más información</p>
                     </div>
                 </div>
             </div>
@@ -189,7 +234,7 @@
         </section>
     </div>
 
-    <section class="stats py-lg-5" id="vulnerabilidad">
+    <section class="stats py-lg-5" id="">
         
         <div id="problema" class="container">
             <h4 class="sub-tittle text-center" style='font-size: 1em'><b>TECHO trabaja con más de 500 comunidades en América Latina y El Caribe. A través de un sistema de
@@ -201,7 +246,7 @@
                         falta de vivienda digna para resguardase del virus; son parte de las necesidades que las familias tienen hoy. <br><b>Conoce más sobre
                         nustra campaña de recaudación entrando a <a href="www.techo.org/covid19"> techo.org/covid19 </a></b></h5>
                         <br>
-            <h3 class="tittle text-center mb-lg-5 mb-4 px-lg-5" style="font-size: 3em;">cantidad de familias con necesidad de apoyo</h3>
+            <h3 class="tittle text-center mb-lg-5 mb-4 px-lg-5" id="vulnerabilidad" style="font-size: 3em;">cantidad de familias con necesidad de apoyo</h3>
             <div class="row text-center">
                 <div class="col-md-3 col-sm-6">
                     <div class="counter">
@@ -243,19 +288,10 @@
         <!-- banner -->
         <!-- //banner -->
     
-<!--     <div class="content-voluntad" id="home">
-        <section class="banner">
-            <div class="container">
-                <div class="row banner-grids">
-                    <div class="col-lg-12 banner-info-w3ls"  style="">
-                        <h1 class="mt-3" style="COLOR: white; font-weight: bold; font-family: Novecentowide;padding-top: 1.1em; ">VOLUNTAD Y TRABAJO ANTE EL COVID19</h1>
-                    </div>
-                   
-                </div>
-            </div>
-        </section>
-    </div> -->
     
+    
+
+
     <div class="content-ayuda" id="home">
         <section class="banner">
             <div class="container">
