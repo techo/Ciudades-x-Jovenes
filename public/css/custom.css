@@ -1,10 +1,10 @@
 .nav-link {
-	color: #0092dd !IMPORTANT;
-    font-family: Novecentowide;
+	  color: white !IMPORTANT;
+    font-family: Montserrat;
     font-size: 1rem;
 } 
 .donar{
-	color: #EA6D4F !IMPORTANT;
+	  color: #EA6D4F !IMPORTANT;
     font-weight: bold;
     font-family: Novecentowide;
 }
@@ -40,6 +40,7 @@ body {
 
 a.footer, p.footer {
 	color: white;
- 	font-family: Roboto; 
+  font-weight: normal;
+ 	font-family: Montserrat; 
 	font-size: 0.7em;
 }

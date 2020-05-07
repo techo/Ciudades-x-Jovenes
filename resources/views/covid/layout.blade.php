@@ -39,41 +39,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- /Fonts -->
     <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- //Fonts -->
 
 </head>
 <body>
-   
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
- <div class="container">
-  <a class="navbar-brand" href=""><img style="width: 8em;" src="{{ asset('img/cxj/logo_techo.png') }}" alt="TECHO"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#impacto">IMPACTO <span class="sr-only"></span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#proceso">PROCESO</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#vulnerabilidad">VULNERABILIDAD</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#acciones">ACCIÓNES</a>
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link donar" href="#donar">DONAR</a>
-      </li>
-    </ul>
-  </div>
-  </div> 
-</nav>                <!-- //nav -->
        
 		@yield('content')
 
