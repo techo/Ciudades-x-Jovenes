@@ -705,15 +705,16 @@ h3.tittle {
     font-weight: 500;
     display: block;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    letter-spacing:  normal;
 }
 
 .sub-sub-tittle {
-    font-size: 0.8em;
+    font-size: 1em;
     color: #868686;
     font-weight: 500;
     display: block;
     font-family: 'Montserrat', sans-serif;
+    letter-spacing:  normal;
 }
 
 .feature-grids h3 {
@@ -804,9 +805,9 @@ h3.tittle {
 .count-text {
     color: #0092dd !IMPORTANT;
     font-family: Novecentowide;
-    font-size: 0.7em;
+    font-size: 0.8em;
     margin-top: 10px;
-    letter-spacing: 2px;
+    letter-spacing: normal;
     margin-bottom: 0;
     text-align: center;
     color: #ffffff;
@@ -815,9 +816,9 @@ h3.tittle {
 .count-text-2 {
     color: #EA6D4F !IMPORTANT;
     font-family: Novecentowide;
-    font-size: 0.5em;
     margin-top: 10px;
-    letter-spacing: 2px;
+    letter-spacing: normal;
+    margin-top: 10px;
     margin-bottom: 0;
     text-align: center;
     color: #ffffff;

@@ -54,41 +54,32 @@
 
     
 
-    <section class="hand-crafted py-5" id="impacto">
+    <section class="hand-crafted-1 pt-5" id="impacto">
         <div class="container">
                 <div class="pl-md-5 text-center">
 
                     <h3 class="tittle">SON <b class="donar"> {{ $desabastecimiento['familias'] }} </b> Familias Beneficiadas</h3>
-                    <h4 class="sub-tittle">Nuestras acciones ante la pandemia buscan
+                    <h4 class="sub-tittle"><b>Nuestras acciones ante la pandemia buscan
                         recaudar fondos que contribuyan a disminuir la
                         vulnerabilidad de las familias que habitan en
-                        asentamientos frente a la crisis del COVID-19</h4>
+                        asentamientos frente a la crisis del COVID-19
+                        Hemos llegado a <b class="donar"> {{ $desabastecimiento['personasTotales'] }} </b>  personas en toda América Latina y El Caribe. Llegando a <b class="donar"> {{ $desabastecimiento['personasxdia'] }} </b>  personas por día con kits de apoyo ante la pandemia.
+                    </b>
+                    </h4>
                         <br>
                     <h5  class="sub-sub-tittle">
-                        <b> Conoce en tiempo real el impacto de los esfuerzos de
-                        TECHO ante la pandemia. </b> <br>
-                        Lo recaudado esta siendo destinada a la compra de
-                        alimentos y productos esenciales para las zonas más
-                        afectadas y prioritarias de la región, para construir más
-                        viviendas de emergencia y para financiar proyectos
-                        vinculados al acceso al agua. <b>Entrá al monitor de impacto <a href="">aquí</a></b></h5>
+                        Lo recaudado esta siendo destinado a la compra de alimentos, productos de higiene y para financiar proyectos vinculados al acceso al agua.
+
+                        <b> Son más de 75 mil personas que necesitan reabastecerse semanalmente </b> con estos insumos de primera necesidad.</h5>
+                    <div class="text-center pt-3">
+                        <a href="https://techo.org/monitorcovid19" class="btn contact-form" style="background-color: #0092dd; color: white; font-family: Novecentowide; font-weight: bold;" target="_blanck">
+                        MONITOR DE IMPACTO</a>
+                    </div>    
                 </div>
         </div>
     </section>
 
-    <div class="content-voluntad" id="home">
-        <section class="banner">
-            <div class="container">
-                <div class="row banner-grids">
-                    <div class="col-lg-6 banner-info-w3ls"  style="">
-                        <h2 class="mt-1" style="COLOR: white; font-weight: bold;     font-size: 1.5em;font-family: Novecentowide; ">
-                            MÁS DE 140.000 PERSONAS ALCANZADAS EN TODA AMÉRICA LATINA Y EL CARIBE. LLegando a 3.960 personas por día CON KITS DE APOYO ante la pandemia</h1>
-                    </div>
-                   
-                </div>
-            </div>
-        </section>
-    </div>
+    
 
 
     <section class="hand-crafted-1 py-5" id="historias">
@@ -98,31 +89,18 @@
                 <div class="col-lg-6 pl-md-5 align-middle">
                     <h4 class="sub-tittle" style='font-weight: bold; font-size: 1.3em; font-family: Novecentowide;'>PALABRAS DE VOLUNTAD Y ESPERANZA</h4>
                     <br>
-                    <h5  class="sub-sub-tittle" style='font-size: 0.8em;'>
+                    <h4  class="sub-tittle">
                         Vecinas y vecinos, liderazgos barriales; que siguen trabajando por hacer llegar el apoyo a sus comunidades. Estas son sus reacciones, 
                         sus emociones y sentimientos ante el gran apoyo que miles de personas han brindado por hacer llegar a diferentes rincones del continente, oportunidades
                         para vivir una cuarentena más justa.
                     </h5>
+                    <div class="text-right">
+                        <a href="https://techo-19.funraise.org/fundraiser/teamtecho" class="btn contact-form" style="background-color: #EA6D4F; color: white; font-family: Novecentowide; font-weight: bold;" target="_blanck">DONA AHORA</a>
+                    </div>
                 </div>
                 <div class="col-lg-6 banner-image">
-                   <iframe width="100%" height="100%" src="https://www.youtube.com/embed/UsrnAiJN1U8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <iframe width="80%" height="100%" src="https://www.youtube.com/embed/UsrnAiJN1U8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-                </div>
-            </div>
-            <div class="row accord-info pt-5">
-                <div class="col-lg-5 banner-image">
-                    <div class="img-effect">
-                        <img src="{{ asset('img/circle2.png') }}" alt="" class="img-fluid image1">
-                    </div>
-
-                </div>
-                <div class="col-lg-7 pl-md-5">
-
-                    
-                    <h4 class="sub-tittle" style='font-weight: bold; font-size: 1.1em;'>"Ingresar aquí testimonio de
-                        liderazgos comunitarios, trabajando, accionando y promoviendo la organización ante la pandemia"</h4>
-                    <h5  class="sub-sub-tittle" style='font-size: 0.8em;'>
-                        <b> - Nombre de la persona</b> </h5>
                 </div>
             </div>
         </div>
@@ -146,10 +124,10 @@
     <section class="stats problema" id="proceso">
         <div id="problema" class="container py-5">
             <div class="row text-center">
-                <p  class="sub-sub-tittle" style='font-size: 1em;'><b> Hemos logrado alcanzar a más de 35,000 familias </b> gracias al apoyo de los liderazgos comunitarios con los que
+                <p  class="sub-sub-tittle" style='font-size: 1em;'><b> Hemos logrado alcanzar a más de {{ $desabastecimiento['familias'] }} familias </b> gracias al apoyo de los liderazgos comunitarios con los que
                     trabajamos, nuestro equipo de voluntariado, el trabajo en red con el sector público y privado, el apoyo en
                     donaciones de miles de personas en América Latina e instituciones que nos permiten hacer entrega de los insumos
-                    de manera segura y siguiendo lineamientos de prevención. <b> Conoce todas las redes de apoyo por país aquí.</b> </p>
+                    de manera segura y siguiendo lineamientos de prevención.<br> <b> Conoce todas las redes de apoyo por país aquí.</b> </p>
 
                 <div class="col-md-1">
                 </div>
@@ -200,7 +178,9 @@
             <h3 class="tittle text-center mb-lg-5 mb-4 px-lg-5" style="font-size: 2.5em;">NUESTRAS ACCIONES ANTE ESTA EMERGENCIA</h3>
 
             <h4 class="sub-sub-tittle text-center" style='font-size: 0.9em'>Desde el 16 de marzo de 2020, TECHO suspendió todas las actividades masivas y en comunidad, como
-                compromiso con el cuidado y prevención con todo nuestro circulo de colaboración institucional. <b>Aún así,
+                compromiso con el cuidado y prevención con todo nuestro circulo de colaboración institucional. 
+                <br>
+                <b>Aún así,
                 nuestras operaciones continuan desde casa. <b></h4>
             <br>
             <div class="row text-center">
@@ -240,13 +220,17 @@
         </div>
     </section>
 
-
-    <div class="content-mas-vulnerables" id="home">
+    <div class="content-voluntad" id="vulnerabilidad">
         <section class="banner">
             <div class="container">
                 <div class="row banner-grids">
-                    <div class="col-lg-12 banner-info-w3ls"  style="">
-                        <h1 class="mt-3" style="COLOR: white; font-weight: bold; font-family: Novecentowide ">LAS FAMILIAS MÁS VULNERABLES ANTE LA PANDEMIA</h1>
+                    <div class="col-lg-6 banner-info-w3ls"  style="margin-top: 2em;">
+                        <h2 class="mt-0" style="COLOR: white; font-weight: bold;     font-size: 1.5em;font-family: Novecentowide; ">
+                            "somos personas qUE vivimos el día a día y que te digan que todo tu trabajo para, es triste, porque no sabes qué le vas a dar a tu hijo al otro día"
+                        </h2>
+                        <h2 class="mt-0" style="COLOR: white; text-transform: none; font-size: 1.2em;font-family: Montserrat; ">
+                            Liliana Benítez, Lideresa Comunitaria
+                        </h2>
                     </div>
                    
                 </div>
@@ -254,89 +238,23 @@
         </section>
     </div>
 
-    <section class="stats py-lg-5" id="">
-        
-        <div id="problema" class="container">
-            <h4 class="sub-tittle text-center" style='font-size: 1em'><b>TECHO trabaja con más de 500 comunidades en América Latina y El Caribe. A través de un sistema de
-                Acompañamiento Territorial despegado ante el COVD-19, contamos con un mapa regional de necesidades de
-                abastecimiento y prevención para mas de 85 mil familias.<b></h4>
-                    <h5  class="sub-sub-tittle text-center" style='font-size: 0.9em;'>
-                        Son las familias que viven en situación de pobreza, habitantes de asentamientos informales, altamente vulnerables ante la
-                        pandemia. El desabastecimiento de comida, servicios básicos, la falta de acceso a insumos de higiene en previsión al COVID19, la
-                        falta de vivienda digna para resguardase del virus; son parte de las necesidades que las familias tienen hoy. <br><b>Conoce más sobre
-                        nustra campaña de recaudación entrando a <a href="https://www.techo.org/covid19"> techo.org/covid19 </a></b></h5>
-                        <br>
-            <h3 class="tittle text-center mb-lg-5 mb-4 px-lg-5" id="vulnerabilidad" style="font-size: 3em; color: #EA6D4F;">no. de familias afectadas por la pandemia</h3>
-            <div class="row text-center">
-                <div class="col-md-3 col-sm-6">
-                    <div class="counter">
-                        <h3 class="timer count-title-2 count-number" style="font-size: 2em"> ALIMENTOS</h3>
-                        <img src="{{ asset('img/icono/2.png') }}" alt="" class="img-fluid image1">
-                        <h3 class="timer count-title-2 count-number">{{ $desabastecimiento['alimento'] }}</h3>
-                        <p class="count-text-2" style="font-size: 1em" >Familias</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="counter">
-                        <h3 class="timer count-title-2 count-number" style="font-size: 2em"> HIGIENE</h3>
-                        <img src="{{ asset('img/icono/1.png') }}" alt="" class="img-fluid image1">
-                        <h3 class="timer count-title-2 count-number">{{ $desabastecimiento['limpieza'] }}</h3>
-                        <p class="count-text-2" style="font-size: 1em" >Familias</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="counter">
-                        <h3 class="timer count-title-2 count-number" style="font-size: 2em"> AGUA</h3>
-                        <img src="{{ asset('img/icono/3.png') }}" alt="" class="img-fluid image1">
-                        <h3 class="timer count-title-2 count-number">{{ $desabastecimiento['agua'] }}</h3>
-                        <p class="count-text-2" style="font-size: 1em" >Familias</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="counter">
-                        <h3 class="timer count-title-2 count-number" style="font-size: 2em"> VIVIENDA</h3>
-                        <img src="{{ asset('img/icono/4.png') }}" alt="" class="img-fluid image1">
-                        <h3 class="timer count-title-2 count-number">1500</h3>
-                        <p class="count-text-2" style="font-size: 1em" >Familias</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--//counter-->
-        <!-- //header -->
-        <!-- banner -->
-        <!-- //banner -->
-    
-    
-    
-
-
-    <div class="content-ayuda" id="home">
-        <section class="banner">
-            <div class="container">
-                <div class="row banner-grids">
-                    <div class="col-lg-12 banner-info-w3ls"  style="">
-                        <h1 class="mt-3" style="COLOR: white; font-weight: bold; font-family: Novecentowide;padding-top: 1.1em; ">AYUDA DESDE CASA</h1>
-                    </div>
-                   
-                </div>
-            </div>
-        </section>
-    </div>
 
     <section class="hand-crafted-1 stats py-lg-5" id="donar">
         
         <div id="problema" class="container">
-            <h4 class="sub-tittle text-center" style='font-size: 1em; font-family: Montserrat;'><b>Apoya las iniciativas de apoyo directo a familias que viven en situación de pobreza en América Latina.Nuestro
-                compromiso por un mundo justo y sin pobreza nos compromete a dirigir nuestros recursos y capacidades en
-                apoyo a los y las habitantes de asentamientos populares en América Latina .<b></h4>
-            <h5  class="sub-sub-tittle text-center" style='font-size: 0.9em; font-family: Montserrat;'>
-                        Puedes ayudar a que nuestros equipos en toda la región puedan seguir en contacto directo con las familias y
-                        liderazgos comunitarios, promoviendo nuestro sistema de Acompañamiento Territorial ante el COVID-19.</h5>
+            <h4 class="sub-tittle text-center" style='font-family: Montserrat;'>
+                <b>Son las familias que viven en situación de pobreza, habitantes de asentamientos informales, altamente vulnerables ante la pandemia. El desabastecimiento de comida, servicios básicos, la falta de acceso a insumos de higiene en previsión al COVID19, la falta de vivienda digna para resguardase del virus; son parte de las necesidades que las familias tienen hoy.
+                <b>
+            </h4>
+
+            <h3 class="tittle text-center">TU APORTE ES MÁS IMPORTANTE QUE NUNCA</h3>
+            
+            <h4  class="sub-tittle text-center" style='font-family: Montserrat;'>
+                        Apoya las iniciativas de apoyo directo a familias que viven en situación de pobreza en América Latina. Nuestro compromiso por un mundo justo y sin pobreza nos compromete a dirigir nuestros recursos y capacidades en apoyo a los y las habitantes de asentamientos populares en América Latina.
+            </h4>
             <br>
             <div class="text-center">
-                <a href="https://techo-19.funraise.org/fundraiser/teamtecho" class="btn contact-form" style="background-color: #0092dd; color: white; font-family: Novecentowide; font-weight: bold;">DONA AHORA</a>
+                <a href="https://techo-19.funraise.org/fundraiser/teamtecho" class="btn contact-form" style="background-color: #0092dd; color: white; font-family: Novecentowide; font-weight: bold;" target="_blanck">DONA AHORA</a>
             </div>
         </div>
     </section>
@@ -348,10 +266,10 @@
             <p class="copy-w3layouts" style="color: white">Más sobre TECHO ante el COVID-19
             </p>
             <ul style="list-style-type:none;">
-                <li><a class="footer" href="https://www.techo.org/infocovid19/"> Acciones Institucionales </a> </li>
-                <li><a class="footer" href="https://www.techo.org/infocovid19/"> Acciones de Prevención </a> </li>
-                <li><a class="footer" href="https://docs.google.com/document/d/1HD7y3apq217i-gtDXWOB4cpYPoUUdPMa3q4KrI8WzFw/edit"> Protocolos </a> </li>
-                <li><a class="footer" href="https://www.techo.org/contacto/"> Países </a> </li>
+                <li><a class="footer" href="https://www.techo.org/infocovid19/" target="_blanck"> Acciones Institucionales </a> </li>
+                <li><a class="footer" href="https://www.techo.org/infocovid19/" target="_blanck"> Acciones de Prevención </a> </li>
+                <li><a class="footer" href="https://docs.google.com/document/d/1HD7y3apq217i-gtDXWOB4cpYPoUUdPMa3q4KrI8WzFw/edit" target="_blanck"> Protocolos </a> </li>
+                <li><a class="footer" href="https://www.techo.org/contacto/" target="_blanck"> Países </a> </li>
             </ul>
         </div>
         <div class="col-md-4 footer-grid_section">
@@ -360,21 +278,21 @@
                     <img style="width: 5em" src="{{ asset('img/techo-logo_blanco.png') }}" alt="TECHO">
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/TECHO.org/">
+                    <a href="https://www.facebook.com/TECHO.org/ target="_blanck"">
                         <span class="fa fa-facebook-square"></span>
                     </a>
-                    <a href="https://twitter.com/techo">
+                    <a href="https://twitter.com/techo" target="_blanck">
                         <span class="fa fa-twitter-square"></span>
                     </a>
-                    <a href="https://instagram.com/techo_org">
+                    <a href="https://instagram.com/techo_org" target="_blanck">
                         <span class="fa fa-instagram"></span>
                     </a>
-                    <a href="https://www.youtube.com/channel/UCV73wZNsK7F7SzvRaRtOqgg">
+                    <a href="https://www.youtube.com/channel/UCV73wZNsK7F7SzvRaRtOqgg" target="_blanck">
                         <span class="fa fa-youtube-play"></span>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.techo.org" class="footer">techo.org</a> 
+                    <a href="https://www.techo.org" target="_blanck" class="footer">techo.org</a> 
                 </li>
                 <li>
                     <p class="footer">© 2020. All rights reserved | Design by TECHO </p>
