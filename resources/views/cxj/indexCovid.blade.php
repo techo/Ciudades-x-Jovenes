@@ -62,7 +62,7 @@
                     <h4 class="sub-tittle"><b>Nuestras acciones ante la pandemia buscan
                         recaudar fondos que contribuyan a disminuir la
                         vulnerabilidad de las familias que habitan en
-                        asentamientos frente a la crisis del COVID-19
+                        asentamientos frente a la crisis del COVID-19.
                         Hemos llegado a <b class="donar"> {{ $desabastecimiento['personasTotales'] }} </b>  personas en toda América Latina y El Caribe. Llegando a <b class="donar"> {{ $desabastecimiento['personasxdia'] }} </b>  personas por día con kits de apoyo ante la pandemia.
                     </b>
                     </h4>
@@ -70,7 +70,7 @@
                     <h5  class="sub-sub-tittle">
                         Lo recaudado esta siendo destinado a la compra de alimentos, productos de higiene y para financiar proyectos vinculados al acceso al agua.
 
-                        <b> Son más de 75 mil personas que necesitan reabastecerse semanalmente </b> con estos insumos de primera necesidad.</h5>
+                         Son más de <b> 75 mil personas que necesitan reabastecerse semanalmente con estos insumos de primera necesidad.</b></h5>
                     <div class="text-center pt-3">
                         <a href="https://techo.org/monitorcovid19" class="btn contact-form" style="background-color: #0092dd; color: white; font-family: Novecentowide; font-weight: bold;" target="_blanck">
                         MONITOR DE IMPACTO</a>
@@ -88,7 +88,6 @@
                 
                 <div class="col-lg-6 pl-md-5 align-middle">
                     <h4 class="sub-tittle" style='font-weight: bold; font-size: 1.3em; font-family: Novecentowide;'>PALABRAS DE VOLUNTAD Y ESPERANZA</h4>
-                    <br>
                     <h4  class="sub-tittle">
                         Vecinas y vecinos, liderazgos barriales; que siguen trabajando por hacer llegar el apoyo a sus comunidades. Estas son sus reacciones, 
                         sus emociones y sentimientos ante el gran apoyo que miles de personas han brindado por hacer llegar a diferentes rincones del continente, oportunidades
@@ -99,7 +98,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 banner-image">
-                   <iframe width="80%" height="100%" src="https://www.youtube.com/embed/UsrnAiJN1U8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <iframe width="90%" height="100%" src="https://www.youtube.com/embed/UsrnAiJN1U8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                 </div>
             </div>
@@ -121,10 +120,10 @@
 
 
        <!--//counter-->
-    <section class="stats problema" id="proceso">
-        <div id="problema" class="container py-5">
+    <section class="stats problema pt-3" id="proceso">
+        <div id="problema" class="container">
             <div class="row text-center">
-                <p  class="sub-sub-tittle" style='font-size: 1em;'><b> Hemos logrado alcanzar a más de {{ $desabastecimiento['familias'] }} familias </b> gracias al apoyo de los liderazgos comunitarios con los que
+                <p  class="sub-sub-tittle" style='font-size: 1.2em;'><b> Hemos logrado alcanzar a más de {{ $desabastecimiento['familias'] }} familias </b> gracias al apoyo de los liderazgos comunitarios con los que
                     trabajamos, nuestro equipo de voluntariado, el trabajo en red con el sector público y privado, el apoyo en
                     donaciones de miles de personas en América Latina e instituciones que nos permiten hacer entrega de los insumos
                     de manera segura y siguiendo lineamientos de prevención.<br> <b> Conoce todas las redes de apoyo por país aquí.</b> </p>
@@ -173,7 +172,7 @@
     </section>
 
     
-    <section id="acciones">
+    <section id="acciones pt-2">
         <div class="container ">
             <h3 class="tittle text-center mb-lg-5 mb-4 px-lg-5" style="font-size: 2.5em;">NUESTRAS ACCIONES ANTE ESTA EMERGENCIA</h3>
 
@@ -187,15 +186,15 @@
                 <div class="col-md-4 col-sm-6 pl-2 pr-2">
                     <div class="counter">
                         <h3 class="timer count-title count-number pb-2" style="font-size: 1.5em"> APOYO FAMILIAR <br> ANTE EL COVID19</h3>
-                        <img src="{{ asset('img/circle1.jpg') }}" alt="" class="image1 rounded-circle" style="max-width: 12em;">
-                        <h5  class="sub-sub-tittle text-center pt-2" style='font-size: 0.9em; padding-top: 0.2em; font-weight:bold;'>
+                        <img src="{{ asset('img/circle1.jpg') }}" alt="" class="image1 rounded-circle pb-2" style="max-width: 12em;">
+                        <h5  class="sub-sub-tittle text-center pt-2 " style='font-size: 0.9em; padding-top: 0.2em; font-weight:bold;'>
                             Alimentos, productos esenciales para las zonas más afectadas y prioritarias de la región, mapeo de necesidad de vivienda, proyectos vinculados al acceso al agua.</h5>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 pl-2 pr-2">
                     <div class="counter">
                         <h3 class="timer count-title count-number pb-2" style="font-size: 1.5em"> ACOMPAÑAMIENTO <br> TERRITORIAL</h3>
-                        <img src="{{ asset('img/circle2.png') }}" alt="" class="image1 rounded-circle" style="max-width: 12em;">
+                        <img src="{{ asset('img/circle2.png') }}" alt="" class="image1 rounded-circle pb-2" style="max-width: 12em;">
                         <h5  class="sub-sub-tittle text-center pt-2" style='font-size: 0.9em; padding-top: 0.2em; font-weight:bold;'>
                             Hemos desplegado un sistema de acompañamiento diario junto a más de 450 liderazgos comunitarios, para poder conocer las necesidades comunitarias ante la pandemia
                         </h5>
@@ -204,7 +203,7 @@
                 <div class="col-md-4 col-sm-6 pl-2 pr-2">
                     <div class="counter">
                         <h3 class="timer count-title count-number pb-2" style="font-size: 1.5em"> VOLUNTARIADO <br> DESDE CASA</h3>
-                        <img src="{{ asset('img/circle3.jpeg') }}" alt="" class="image1 rounded-circle"  style="max-width: 12em;">
+                        <img src="{{ asset('img/circle3.jpeg') }}" alt="" class="image1 rounded-circle pb-2"  style="max-width: 12em;">
                         <h5  class="sub-sub-tittle text-center pt-2" style='font-size: 0.9em; padding-top: 0.2em; font-weight:bold;'>
                             Las juventudes de América Latina siguen siendo claves para la construcción de ciudades justas e inclusivas. El voluntariado continua desde casa.
                         </h5>
@@ -239,7 +238,7 @@
     </div>
 
 
-    <section class="hand-crafted-1 stats py-lg-5" id="donar">
+    <section class="hand-crafted-1 stats py-lg-5 py-4" id="donar">
         
         <div id="problema" class="container">
             <h4 class="sub-tittle text-center" style='font-family: Montserrat;'>

@@ -812,6 +812,7 @@ h3.tittle {
     text-align: center;
     color: #ffffff;
     font-weight: 400;
+    line-height: inherit;
 }
 .count-text-2 {
     color: #EA6D4F !IMPORTANT;
@@ -823,6 +824,7 @@ h3.tittle {
     text-align: center;
     color: #ffffff;
     font-weight: 400;
+    line-height: inherit;
 }
 
 
