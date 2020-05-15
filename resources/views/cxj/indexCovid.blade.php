@@ -123,7 +123,7 @@
     <section class="stats problema pt-3" id="proceso">
         <div id="problema" class="container">
             <div class="row text-center">
-                <p  class="sub-sub-tittle" style='font-size: 1.2em;'><b> Hemos logrado alcanzar a más de {{ $desabastecimiento['familias'] }} familias </b> gracias al apoyo de los liderazgos comunitarios con los que
+                <p  class="sub-sub-tittle" style='font-size: 1.2em;line-height: normal;'><b> Hemos logrado alcanzar a más de {{ $desabastecimiento['familias'] }} familias </b> gracias al apoyo de los liderazgos comunitarios con los que
                     trabajamos, nuestro equipo de voluntariado, el trabajo en red con el sector público y privado, el apoyo en
                     donaciones de miles de personas en América Latina e instituciones que nos permiten hacer entrega de los insumos
                     de manera segura y siguiendo lineamientos de prevención.<br> <b> Conoce todas las redes de apoyo por país aquí.</b> </p>
