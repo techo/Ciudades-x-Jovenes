@@ -31,6 +31,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
    
     <!-- font-awesome-icons -->
     <link href="https://www.techo.org/examples/css/css/font-awesome.css" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="https://www.techo.org/examples/css/img/favicon.ico" />
     
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">

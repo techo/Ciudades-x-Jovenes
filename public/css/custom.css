@@ -11,25 +11,25 @@
 
 @font-face {
   font-family: Novecentowide;
-  src: url('/fonts/Novecentowide-Normal.otf');
+  src: url('https://www.techo.org/examples/css/fonts/Novecentowide-Normal.otf');
   font-weight: normal;
 }
 
 @font-face {
   font-family: Novecentowide;
-  src: url('/fonts/Novecentowide-Bold.otf');
+  src: url('https://www.techo.org/examples/css/fonts/Novecentowide-Bold.otf');
   font-weight: bold;
 }
 
 @font-face {
   font-family: Roboto;
-  src: url('/fonts/Roboto-Light.ttf');
+  src: url('https://www.techo.org/examples/css/fonts/Roboto-Light.ttf');
   font-weight: normal;
 }
 
 @font-face {
   font-family: Roboto;
-  src: url('/fonts/Roboto-Bold.ttf');
+  src: url('https://www.techo.org/examples/css/fonts/Roboto-Bold.ttf');
   font-weight: bold;
 }
 
