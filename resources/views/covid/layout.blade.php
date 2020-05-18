@@ -26,11 +26,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </script>
     <!-- //Meta tag Keywords -->
      <!-- Style-CSS -->
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css" media="all" />
-    <link rel="stylesheet" href="{{ asset('css/custom.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://www.techo.org/examples/css/css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://www.techo.org/examples/css/css/custom.css" type="text/css" media="all" />
    
     <!-- font-awesome-icons -->
-    <link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet">
+    <link href="https://www.techo.org/examples/css/css/font-awesome.css" rel="stylesheet">
     
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">

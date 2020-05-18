@@ -277,7 +277,7 @@
                     <img style="width: 5em" src="{{ asset('img/techo-logo_blanco.png') }}" alt="TECHO">
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/TECHO.org/ target="_blanck"">
+                    <a href="https://www.facebook.com/TECHO.org/" target="_blanck">
                         <span class="fa fa-facebook-square"></span>
                     </a>
                     <a href="https://twitter.com/techo" target="_blanck">
