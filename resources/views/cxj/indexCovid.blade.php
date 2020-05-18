@@ -32,7 +32,7 @@
                         <a class="nav-link" href="#vulnerabilidad">Vulnerabilidad</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#donar"><b>DONAR </b></a>
+                        <a class="nav-link" href="https://techo.org/covid19" target="_blanck"><b>DONAR </b></a>
                     </li>
                 </ul>
             </div>
@@ -67,10 +67,10 @@
                     </b>
                     </h4>
                         <br>
-                    <h5  class="sub-sub-tittle">
+                    <h5  class="sub-tittle"><b>     
                         Lo recaudado esta siendo destinado a la compra de alimentos, productos de higiene y para financiar proyectos vinculados al acceso al agua.
 
-                         Son más de <b> 75 mil personas que necesitan reabastecerse semanalmente con estos insumos de primera necesidad.</b></h5>
+                         Son más de 75 mil personas que necesitan reabastecerse semanalmente con estos insumos de primera necesidad.</b></h5>
                     <div class="text-center pt-3">
                         <a href="https://techo.org/monitorcovid19" class="btn contact-form" style="background-color: #0092dd; color: white; font-family: Novecentowide; font-weight: bold;" target="_blanck">
                         MONITOR DE IMPACTO</a>
@@ -94,7 +94,7 @@
                         para vivir una cuarentena más justa.
                     </h5>
                     <div class="text-right">
-                        <a href="https://techo-19.funraise.org/fundraiser/teamtecho" class="btn contact-form" style="background-color: #EA6D4F; color: white; font-family: Novecentowide; font-weight: bold;" target="_blanck">DONA AHORA</a>
+                        <a href="https://techo.org/covid19" class="btn contact-form" style="background-color: #EA6D4F; color: white; font-family: Novecentowide; font-weight: bold;" target="_blanck">DONA AHORA</a>
                     </div>
                 </div>
                 <div class="col-lg-6 banner-image">
@@ -253,7 +253,7 @@
             </h4>
             <br>
             <div class="text-center">
-                <a href="https://techo-19.funraise.org/fundraiser/teamtecho" class="btn contact-form" style="background-color: #0092dd; color: white; font-family: Novecentowide; font-weight: bold;" target="_blanck">DONA AHORA</a>
+                <a href="https://techo.org/covid19" class="btn contact-form" style="background-color: #0092dd; color: white; font-family: Novecentowide; font-weight: bold;" target="_blanck">DONA AHORA</a>
             </div>
         </div>
     </section>
