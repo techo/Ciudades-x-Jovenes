@@ -249,7 +249,7 @@
             <h3 class="tittle text-center">TU APORTE ES MÁS IMPORTANTE QUE NUNCA</h3>
             
             <h4  class="sub-tittle text-center" style='font-family: Montserrat;'>
-                        Apoya las iniciativas de apoyo directo a familias que viven en situación de pobreza en América Latina. Nuestro compromiso por un mundo justo y sin pobreza nos compromete a dirigir nuestros recursos y capacidades en apoyo a los y las habitantes de asentamientos populares en América Latina.
+                        Apoya las iniciativas de apoyo directo a familias que viven en situación de pobreza en América Latina. Nuestro compromiso por un mundo justo y sin pobreza nos lleva a dirigir nuestros recursos y capacidades en apoyo a los y las habitantes de asentamientos populares de América Latina.
             </h4>
             <br>
             <div class="text-center">
