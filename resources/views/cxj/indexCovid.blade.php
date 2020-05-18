@@ -218,11 +218,11 @@
         <section class="banner">
             <div class="container">
                 <div class="row banner-grids">
-                    <div class="col-lg-6 banner-info-w3ls"  style="margin-top: 2em;">
-                        <h2 class="mt-0" style="COLOR: white; font-weight: bold;     font-size: 1.5em;font-family: Novecentowide; ">
+                    <div class="col-lg-6 banner-info-w3ls"  style="margin-top: 3em;">
+                        <h2 class="mt-0" style="COLOR: white; font-weight: bold;     font-family: Novecentowide; ">
                             "somos personas qUE vivimos el día a día y que te digan que todo tu trabajo para, es triste, porque no sabes qué le vas a dar a tu hijo al otro día"
                         </h2>
-                        <h2 class="mt-0" style="COLOR: white; text-transform: none; font-size: 1.2em;font-family: Montserrat; ">
+                        <h2 class="mt-0" style="COLOR: white; text-transform: none; font-family: Montserrat; ">
                             Liliana Benítez, Lideresa Comunitaria
                         </h2>
                     </div>
