@@ -5,42 +5,37 @@
 
     <!-- mian-content -->
 
-<div class="main-content-covid" id="home">
-    <div class="container">
-        <nav class="navbar navbar-expand-md ">
-            <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <div>
-                            <a class="navbar-brand" href=""><img style="width: 5em;" src="{{ asset('img/techo-logo_blanco.png') }}" alt="TECHO"></a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="/cxj/"><img style="width: 8em;" src="{{ asset('img/cxj/logo_techo.png') }}" alt="TECHO"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
                         <a class="nav-link" href="#impacto">Impacto <span class="sr-only"></span></a>
-                    </li>
-                    <li class="nav-item">
+                      </li>
+                      <li class="nav-item">
                         <a class="nav-link" href="#historias">Historias</a>
-                    </li>
-                    <li class="nav-item">
+                      </li>
+                      <li class="nav-item">
                         <a class="nav-link" href="#acciones">Acciones</a>
-                    </li>
-                    <li class="nav-item">
+                      </li>
+                      <li class="nav-item">
                         <a class="nav-link" href="#vulnerabilidad">Vulnerabilidad</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="https://techo.org/covid19" target="_blanck"><b>DONAR </b></a>
-                    </li>
-                </ul>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link donar" href="https://techo.org/covid19">DONAR</a>
+                      </li>
+                    </ul>
+                </div>
             </div>
         </nav>
-    </div>
 
 
-    <section class="banner">
+    <div class="main-content-covid" id="home">
+        <section class="banner">
             <div class="container">
                 <div class="row banner-grids">
                     <div class="col-lg-12 banner-info-w3ls"  style="">
