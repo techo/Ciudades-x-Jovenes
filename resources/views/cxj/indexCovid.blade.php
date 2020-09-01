@@ -49,7 +49,7 @@
 
     
 
-    <section class="hand-crafted-1 pt-5" id="impacto">
+    <section class="hand-crafted-1 pt-5 pb-5" id="impacto">
         <div class="container">
                 <div class="pl-md-5 text-center">
 
@@ -69,6 +69,36 @@
                     <div class="text-center pt-3">
                         <a href="https://techo.org/monitorcovid19" class="btn contact-form" style="background-color: #0092dd; color: white; font-family: Novecentowide; font-weight: bold;" target="_blanck">
                         MONITOR DE IMPACTO</a>
+                    </div>    
+                </div>
+        </div>
+    </section>
+
+
+    <section class="stats problema pt-3 pb-3">
+        <div class="container">
+                <div class="pl-md-5 text-center">
+
+                    <h3 class="tittle">EXPERIENCIA DE LIDERAZGOS COMUNITARIOS</h3>
+                        <br>
+
+                    <h4 class="sub-tittle"><b>
+                        Realizamos <b class="donar"> 196 </b> entrevistas a liderazgos comunitarios de <b class="donar"> 136 </b> Asentamientos Populares de <b class="donar">16 </b> países de América Latina y El Caribe 
+                    </b>
+                    </h4>
+                    <h5  class="sub-tittle">   
+                        En el mismo se describe la vivencia de los liderazgos comunitarios, las acciones de mitigación impulsadas en sus territorios y se identifican las propuestas y expectativas que tienen sobre la sociedad a la que debemos/necesitamos transitar
+                        <br>
+                        <br>
+                        <b>  ¡Descargá el informe en tu idioma!</b>
+                    </h5>
+                    <div class="text-center pt-3">
+                        <a href="{{ asset('ES _ Informe_Experiencia de Liderazgos Comunitarios.pdf') }}" class="btn contact-form" style="background-color: #0092dd; color: white; font-family: Novecentowide; font-weight: bold;" target="_blanck">
+                        ES</a>
+                        <a href="{{ asset('PORT_Relatório_Experiência das Lideranças Comunitárias.pdf') }}" class="btn contact-form" style="background-color: #0092dd; color: white; font-family: Novecentowide; font-weight: bold;" target="_blanck">
+                        PT</a>
+                        <a href="{{ asset('EN_Report_Community Leadership experience on COVID-19.pdf') }}" class="btn contact-form" style="background-color: #0092dd; color: white; font-family: Novecentowide; font-weight: bold;" target="_blanck">
+                        EN</a>
                     </div>    
                 </div>
         </div>
